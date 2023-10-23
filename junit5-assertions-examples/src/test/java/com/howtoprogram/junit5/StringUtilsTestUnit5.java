@@ -131,4 +131,11 @@ public class StringUtilsTestUnit5 {
     String actual = StringUtils.concat();
     assertNull(actual);
   }
+
+  @Disabled
+  @Test
+  public void testConcatWithAllNullInputt() {
+    String actual = StringUtils.concat();
+    assertNull(actual);
+  }
 }
