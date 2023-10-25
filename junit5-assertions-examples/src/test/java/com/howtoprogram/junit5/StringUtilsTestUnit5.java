@@ -119,6 +119,7 @@ public class StringUtilsTestUnit5 {
   public void testConcatWithNullInput() {
     String st1 = "Hello";
     String st2 = "World";
+
     String st3 = null;
     String expect = st1 + st2;
     String actual = StringUtils.concat(st1, st2, st3);
